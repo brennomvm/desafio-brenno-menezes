@@ -56,6 +56,10 @@
 new CaixaDaLanchonete()
   .calcularValorDaCompra('debito', ['chantily,1']);
 
+new CaixaDaLanchonete()
+  .calcularValorDaCompra('debito', ['cafe,1','chantily,1']);
 
+new CaixaDaLanchonete()
+  .calcularValorDaCompra('credito', ['combo1,1','cafe,2']);
 
 
